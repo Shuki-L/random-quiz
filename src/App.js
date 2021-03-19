@@ -49,7 +49,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img
-            src={`${process.env.PUBLIC_URL}/random-quiz/images/${image.path}`}
+            src={`${process.env.PUBLIC_URL}/images/${image.path}`}
             className="App-logo"
             style={this.state.imageIndex === 43 ? { height: "500px" } : {}}
             alt="logo"
